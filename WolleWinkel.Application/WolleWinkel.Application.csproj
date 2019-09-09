@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\WolleWinkel.Domain\WolleWinkel.Domain.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="9.0.0" />
+      <PackageReference Include="FluentValidation" Version="8.4.0" />
+      <PackageReference Include="MediatR" Version="7.0.0" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.0.0-preview9.19423.6" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="ShopItem\Queries\GetShopItem" />
+    </ItemGroup>
+
+</Project>
